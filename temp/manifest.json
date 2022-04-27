@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "4dece9e0-c56a-11ec-8599-a550876c7eb9",
+  "version": "0.0.1",
+  "packageName": "sso1",
+  "developer": {
+    "name": "test",
+    "websiteUrl": "https://sso1.azurewebsites.net",
+    "privacyUrl": "https://sso1.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://sso1.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "sso1",
+    "full": "sso1"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://sso1.azurewebsites.net/sso1Tab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "sso1.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "51ce15fc-a655-4838-92a9-c1633f81a94c",
+    "resource": "api://7505-103-184-180-2.ap.ngrok.io/51ce15fc-a655-4838-92a9-c1633f81a94c"
+  }
+}

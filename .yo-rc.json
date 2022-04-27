@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "test"
+    },
+    "libraryName": "sso1",
+    "generator-version": "3.5.0"
+  }
+}
